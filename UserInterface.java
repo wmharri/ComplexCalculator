@@ -68,7 +68,7 @@ public class UserInterface extends JFrame {
 		display.append(output);
 	}*/
 
-	static JButton buttonSetup(String value)
+	JButton buttonSetup(String value)
 	{
 		JButton tempButton = new JButton(value);
 		ButtonListener wasClicked = new ButtonListener();

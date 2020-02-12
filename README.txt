@@ -1,5 +1,3 @@
 Preparing for Circuits II, I had planned to make a calculator app to help with complex arithmetic. It's for the best I didn't -- I wouldn't have been able to use it on exams, and also solving systems of linear equations with complex coefficients was great, though frustrating, practice; still, I already have a user interface worked out, and all that's really left is a parser for the input, so why not finish it off and post it?
 
 The planned design is to convert the input string into a string of tokens, which is then converted into a parse tree, and this parse tree will be evaluated from its leaf nodes to its root. There will be no variables, no loops, and no computer-theoretic functions, so this project will not require the full force of a modern compiler. After the initial version is developed, I plan to extend the calculator's functionality so that it can solve matrix multiplication problems using standard elimination-with-pivot algorithms from numerical linear algebra.
-
-Note: the code currently uploaded is not functional. I need to step back and reconsider class interrelationships.

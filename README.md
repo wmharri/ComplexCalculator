@@ -4,6 +4,8 @@ A calculator program written with electrical engineering applications in mind, w
 
 ## Design Plan
 
+UPDATE: I plan to switch from Swing to JavaFX on this project.
+
 The planned design is to convert the input string into a string of tokens, which is then converted into a parse tree, and this parse tree will be evaluated from its leaf nodes to its root. There will be no loops, and all quantities will have fixed values, so this project will not require the full force of a modern compiler; for example, I will not be implementing symbol tables or activation records. After the initial version is developed, I plan to extend the calculator's functionality so that it can solve matrix multiplication problems using standard elimination-with-pivot algorithms from numerical linear algebra; see [1].
 
 ## References
